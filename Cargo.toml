@@ -1,0 +1,9 @@
+[package]
+name = "gpn-mazing-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+knossos = "1.1.0"
+grid = "0.16.1"
+bitflags = "2.9.0"
