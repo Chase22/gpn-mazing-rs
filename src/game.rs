@@ -26,7 +26,7 @@ impl Display for Neighbours {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Copy, Clone)]
 pub struct Point {
     x: usize,
     y: usize,
