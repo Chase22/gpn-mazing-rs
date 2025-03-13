@@ -42,7 +42,7 @@ pub(crate) fn generate_maze(seed: u64, size: usize) -> GenerationResult {
         .width(size)
         .build();
 
-    let game_map = GameMap::new().span(1).with_start_goal();
+    let game_map = GameMap::new().span(1).with_start_goal().seed(Some(seed));
 
     let formatted = maze.format(game_map).into_inner();
     let mut start: (usize, usize) = (0, 0);
