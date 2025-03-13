@@ -497,9 +497,9 @@ checksum = "f5d4a7da358eff58addd2877a45865158f0d78c911d43a5784ceb7bbf52833b0"
 
 [[package]]
 name = "knossos"
-version = "1.1.0"
+version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8aeb9159f605296dc1967ff947114004bb0292885f1bb745dd0e3bf053a1b8b"
+checksum = "54c27e1a83dc8a243d696f51a5be0ecee7028ec8ee99ab70aacd6a5674e1ea2a"
 dependencies = [
  "bitflags 2.9.0",
  "clap",
