@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 knossos = "1.2.0"
-grid = "0.16.1"
+grid = "1.0.0"
 bitflags = "2.9.0"
