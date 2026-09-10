@@ -136,9 +136,9 @@ checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
 name = "bitflags"
-version = "2.9.0"
+version = "2.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c8214115b7bf84099f1309324e63141d4c5d7cc26862f97a0a857dbefe165bd"
+checksum = "3ded4057c258ba199e2d26386d3af3780957ecaee6c4ef4041c6b4b8b97c0b06"
 
 [[package]]
 name = "bitstream-io"
@@ -372,7 +372,7 @@ dependencies = [
 name = "gpn-mazing-rs"
 version = "0.1.0"
 dependencies = [
- "bitflags 2.9.0",
+ "bitflags 2.13.2",
  "grid",
  "knossos",
 ]
@@ -501,7 +501,7 @@ version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "54c27e1a83dc8a243d696f51a5be0ecee7028ec8ee99ab70aacd6a5674e1ea2a"
 dependencies = [
- "bitflags 2.9.0",
+ "bitflags 2.13.2",
  "clap",
  "image",
  "rand 0.9.0",
@@ -1235,7 +1235,7 @@ version = "0.33.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3268f3d866458b787f390cf61f4bbb563b922d091359f9608842999eaee3943c"
 dependencies = [
- "bitflags 2.9.0",
+ "bitflags 2.13.2",
 ]
 
 [[package]]
